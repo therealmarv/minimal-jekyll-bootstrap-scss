@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    <div class="content">
-      {% include navbar.html %}
+{% include head.html %}
 
-      <div class="container">
-          <div class="row">
-            <div class="col">
-              <span>this is page2</span>
-            </div>
-          </div>
+<body>
+  <div class="content">
+    {% include navbar.html %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Page 2 here: </p>
+          <p>Tempor ullamco magna laborum ea consectetur quis. Et commodo ut esse esse laboris nulla cupidatat cillum
+            ut ullamco quis esse cupidatat deserunt. Sint ad adipisicing nulla nisi deserunt sint.</p>
+        </div>
       </div>
-
-      {{ content }}
     </div>
-    {% include footer.html %}
-  </body>
+
+    {{ content }}
+  </div>
+  {% include footer.html %}
+</body>
+
 </html>
